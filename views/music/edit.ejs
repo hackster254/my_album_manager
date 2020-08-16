@@ -1,0 +1,15 @@
+<%- include ('../partials/header'); -%>
+	<h1>Edit Music</h1>
+	<form method="post" action="/musics/edit/<%=id %>">
+	  <div class="form-group">
+	    <label>Artist Name</label>
+	    <input type="text" class="form-control" name="artist" value="<%=musics.artist %>" placeholder="Genre Name">
+	  </div>
+
+	  <div class="form-group">
+	    <label>Song Name</label>
+	    <input type="text" class="form-control" name="song" value="<%=musics.song %>" placeholder="Song Name">
+	  </div>
+	  <button type="submit" class="btn btn-default">Submit</button>
+	</form>
+<%- include ('../partials/footer'); -%>

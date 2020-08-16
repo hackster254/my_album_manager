@@ -1,0 +1,26 @@
+{
+  "name": "albumz",
+  "version": "1.0.0",
+  "description": "Music album manager",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Joshua Peng",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.3.0",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "dotenv": "^8.2.0",
+    "ejs": "^3.0.1",
+    "express": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "firebase": "^7.17.2",
+    "morgan": "*",
+    "multer": "*",
+    "path": "*"
+  }
+}

@@ -1,0 +1,27 @@
+<%- include ('../partials/header'); -%>
+
+<h1>Add music</h1>
+	<form method="post" action="/musics/add">
+		<div class="form-group">
+	    <label>Artist</label>
+	    <input type="text" class="form-control" name="artist" placeholder="Artist Name">
+	  </div>
+
+	  <div class="form-group">
+	    <label>Song Name</label>
+	    <input type="text" class="form-control" name="song" placeholder="Artist Name">
+	  </div>
+	  
+
+	  <!---<div class="form-group">
+	    <label>Mp3 audio</label>
+	    <input type="file" class="form-control" name="mp3">
+	  </div>
+	  --->
+
+	  <button type="submit" class="btn btn-default">Submit</button>
+	   <a class="btn btn-danger" href="/musics">Close</a>
+
+	</form>
+
+<%- include ('../partials/footer'); -%>
