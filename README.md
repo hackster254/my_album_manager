@@ -1,4 +1,4 @@
-# express-firebase-albumz
+# express-firebase-album-manager
 A music album manager app with Firebase user authentication, access control, and full database functionality. Made with Express, Firebase, Connect-Flash, and EJS.
 
 The firebase database allows the CRUD operations.
